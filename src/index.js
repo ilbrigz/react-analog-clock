@@ -13,6 +13,7 @@ const StyledWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `;
 
 import "./styles.css";
@@ -20,6 +21,7 @@ import "./styles.css";
 function App() {
   return (
     <StyledWrapper>
+      <h1>React Clock @day3</h1>
       <Clock>
         {" "}
         <Hand second length="40" />
